@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đăng Ký Whitelist Server Minecraft</title>
+</head>
+<body>
+<header>
+<h2>
+Cộng Đồng Minecraft Sinh Tồn Bình Dương
+</h2>
+<nav>
+<ul>
+<li><a href="#about">Giới thiệu</a></li>
+<li><a href="#media">Trailer Server</a></li>
+<li><a href="#register">Đăng ký Whitelist</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="about">
+<h3>Chào mừng đến với Server</h3>
+<p>Server sinh tồn Hardcore nguyên bản dành cho những người đam mê xây dựng. Server cho phép sử dụng mod Litematica để hỗ trợ xây công trình lớn, tuy nhiên nghiêm cấm mọi hình thức hack/cheat khác.</p>
+</section>
+
+<section id="media">
+<h3>Video Trailer Server</h3>
+<video width="640" height="360" controls>
+<source src="minecraft-trailer.mp4" type="video/mp4">
+Trình duyệt của bạn không hỗ trợ thẻ video.
+</video>
+</section>
+
+<form action="/submit-whitelist" method="POST" id="register">
+<h3>Biểu mẫu Đăng ký</h3>
+
+<label for="ign">Tên nhân vật trong game (IGN):</label><br>
+<input type="text" id="ign" name="ign" placeholder="Nhập tên in-game..." required><br><br>
+
+<label for="email">Địa chỉ Email:</label><br>
+<input type="email" id="email" name="email" placeholder="quoc@gmail.com" required><br><br>
+
+<label for="dob">Ngày sinh:</label><br>
+<input type="date" id="dob" name="dob" required><br><br>
+
+<label>Phiên bản bạn đang sử dụng:</label><br>
+<input type="radio" id="java" name="version" value="java" checked>
+<label for="java">Java Edition</label><br>
+<input type="radio" id="bedrock" name="version" value="bedrock">
+<label for="bedrock">Bedrock Edition</label><br><br>
+
+<input type="checkbox" id="rules" name="rules" required>
+<label for="rules">Tôi đã đọc và đồng ý tuân thủ nội quy của Server.</label><br><br>
+
+<button type="submit">Gửi Đăng Ký</button>
+</form>
+</main>
+<footer>
+<p>© 2026 Minecraft Bình Dương Server.</p>
+<p>Liên hệ quản trị viên qua Discord nếu bạn gặp lỗi trong quá trình đăng ký.</p>
+<nav>
+<a href="#">Facebook Group</a> | <a href="#">Discord Channel</a> | <a href="#">Luật Server</a>
+</nav>
+</footer>
+</body>
+</html>
+
 
